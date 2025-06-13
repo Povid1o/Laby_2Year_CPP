@@ -22,7 +22,7 @@ public:
 };
 
 int main() {
-    Student* student = new Student("Andryha");
+    Student* student = new Student("Nikitka");
 
     cout << "Имя студента: " << student->getName() << endl;
 

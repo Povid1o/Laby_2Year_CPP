@@ -23,15 +23,9 @@ public:
 };
 
 int main() {
-    unique_ptr<Student> student = make_unique<Student>("Andryha");
+    unique_ptr<Student> student = make_unique<Student>("Nikitka");
 
     cout << "Имя студента: " << student->getName() << endl;
 
     return 0;
 }
-/* 
-- Исключает утечки памяти
-- Исключает двойное удаление
-- Делает код более надежным
-- Упрощает управление ресурсами 
-*/

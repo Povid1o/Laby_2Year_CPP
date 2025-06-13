@@ -36,7 +36,7 @@ public:
 
 int main() {
     try {
-        BankAccount account("Андрей Грабковский", 1000.0);
+        BankAccount account("Аноним Анонимычев", 1000.0);
         
         std::cout << "Владелец счета: " << account.owner << std::endl;
         std::cout << "Начальный баланс: " << account.getBalance() << " руб." << std::endl;

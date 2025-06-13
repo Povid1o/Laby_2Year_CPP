@@ -18,8 +18,8 @@ int main() {
     cout << endl;
     
     // Освобождение памяти
-    delete a;    // Для одиночного числа используем delete
-    delete[] arr; // Для массива используем delete[]
+    delete a;    
+    delete[] arr;
     
     return 0;
 }

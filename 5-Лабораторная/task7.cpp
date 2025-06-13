@@ -95,7 +95,7 @@ int main() {
     try {
         std::cout << "Начальное количество счетов: " << BankAccount::getTotalAccounts() << std::endl;
 
-        BankAccount account1("Андрей Грабковский", 1000.0);
+        BankAccount account1("Аноним Анонимычев", 1000.0);
         std::cout << "Количество счетов после создания первого: " << BankAccount::getTotalAccounts() << std::endl;
 
         BankAccount account2("Никита Башлыков", 2000.0);

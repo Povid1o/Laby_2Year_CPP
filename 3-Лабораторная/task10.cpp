@@ -28,9 +28,9 @@ namespace Library {
 int main() {
     vector<shared_ptr<Library::Book>> books;
 
-    books.push_back(make_shared<Library::Book>("ЗомбиПопакалипсис"));
-    books.push_back(make_shared<Library::Book>("Преступление и преступление"));
-    books.push_back(make_shared<Library::Book>("Мастер и Маргарин"));
+    books.push_back(make_shared<Library::Book>("Ого, я сценарист"));
+    books.push_back(make_shared<Library::Book>("Преступление и преступление и преступление и преступление и взятка и преступление и преступление"));
+    books.push_back(make_shared<Library::Book>("Да как центрировать этот чёртов div"));
 
     cout << "\nСписок книг:" << endl;
     for (const auto& book : books) {
